@@ -1,0 +1,159 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bomerang{
+    width: 70px;
+    height: 70px;
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.fix:hover ~ .center1{
+    display: block;
+}
+.fix1:hover ~ .center2{
+    display: block;
+}
+
+
+.bomerang > img{
+    width: 100%;
+    background-size: cover;
+}
+
+.bomerang:hover{
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.bomerang:hover ~ .center{
+    display: block;
+}
+
+.center{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center1{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center2{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.gunny{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 25px 5px 5px;
+}
+
+.gunny:hover ~ .bomerang{
+    display: block;
+}
+
+.title{
+    font-size: 20px;
+}
+.orange{
+    color: orange;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+      letter-spacing: 1px;
+      line-height: 2rem;
+}
+.flex{
+    display: flex;
+}
+
+.flex-bet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status{
+    line-height: 2rem;
+}
+.black-white{
+    color: black;
+    text-shadow:
+    -1px -1px 0 white,  
+     1px -1px 0 white,
+     -1px 1px 0 white,
+      1px 1px 0 white;
+}
+.white-black{
+    color: white;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+      1px 1px 0 black;
+}
+.green{
+    color: lime;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+      1px 1px 0 black;
+}
+.strength{
+    width: 150px;
+    height: 70px;
+    aspect-ratio: 16/9;
+    margin-left: 2rem;
+}
+
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 0.75rem 0;
+    box-shadow: 0 5px 15px black;
+}
+
+.khoa{
+    color: red;
+    padding: 5px 15px;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+      1px 1px 0 black;
+      font-size: 20px;
+    border: 1px solid red;
+}
+
+.gold{
+    color: yellow;
+    text-shadow:
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+     -1px 1px 0 black,
+      1px 1px 0 black;
+      margin-left: 5px;
+}
+
+.right{
+    margin-right: 5px;
+}
+
